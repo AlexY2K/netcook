@@ -1,0 +1,107 @@
+Cities:
+  actAs: { Timestampable: ~ }
+  columns:
+    nom: { type: string(255), notnull: true }
+    cp: { type: string(255), notnull: true }
+    latitude: { type: float, notnull: true }
+    longitude: { type: float, notnull: true }
+    eloignement: { type: string(255), notnull: true }
+    url: { type: string(255), notnull: true }
+
+Deals: 
+  actAs: { Timestampable: ~ }
+  columns:
+    image: { type: string(255) }
+    description: { type: string(4000), notnull: true }
+    value: { type: integer, notnull: true }
+    start: { type: date, notnull: true }
+    end: { type: date, notnull: true }
+    restaurant_id: { type: integer, notnull: true }
+  relations:
+    Restaurant: { onDelete: CASCADE, local: restaurant_id, foreign: id, foreignAlias: Restaurants3 }
+
+Comments:
+  actAs: { Timestampable: ~ }
+  columns:
+    text: { type: string(255), notnull: true }
+    member_id: { type: integer, notnull: true }
+    restaurant_id: { type: integer, notnull: true }
+    note: { type: integer, notnull: true }
+  relations:
+    Entity: { onDelete: CASCADE, local: member_id, foreign: id, foreignAlias: Users2 }
+    Restaurant: { onDelete: CASCADE, local: restaurant_id, foreign: id, foreignAlias: Restaurants4 }
+
+Entity:
+  actAs: { Timestampable: ~ }
+  columns:
+    sf_guard_user_id: { type: integer, notnull: true }
+    last_name: { type: string(255), notnull: true }
+    first_name: { type: string(255), notnull: true }
+    address: { type: string(4000), notnull: true }
+    phone: { type: string(255), notnull: true }
+    image: { type: string(255) }
+  relations:
+    Entity: { onDelete: CASCADE, local: sf_guard_user_id, foreign: id, foreignAlias: Users }
+    
+Restaurant:
+  actAs:
+    Timestampable: ~
+    Sluggable:
+      unique: true
+      fields: [name, city]
+      canUpdate: true
+  columns:
+    entity_id: { type: integer, notnull: true }
+    image: { type: string(255) }
+    name: { type: string(255), notnull: true }
+    address: { type: string(255) }
+    city: { type: string(255) }
+    postal_code: { type: string(5) }
+    type: { type: string(255) }
+    phone: { type: string(255) }
+    description: { type: string(4000) }
+    open_time: { type: time }
+    close_time: { type: time }
+    status: { type: boolean, notnull: true, default: 0 }
+  relations:
+    Entity: { onDelete: CASCADE, local: entity_id, foreign: id, foreignAlias: Entities }
+
+Category:
+  actAs: { Timestampable: ~ }
+  columns:
+    restaurant_id: { type: integer, notnull: true }
+    name: { type: string(255), notnull: true }
+  relations:
+    Restaurant: { onDelete: CASCADE, local: restaurant_id, foreign: id, foreignAlias: Restaurants }
+
+Detail:
+  actAs: { Timestampable: ~ }
+  columns:
+    size: { type: string(255), notnull: true }
+
+Product:
+  actAs: { Timestampable: ~ }
+  columns:
+    image: { type: string(255) }
+    restaurant_id: { type: integer, notnull: true }
+    category_id: { type: integer, notnull: true }
+    detail_id: { type: integer }
+    name: { type: string(255), notnull: true }
+    description: { type: string(4000), notnull: true }
+    price: { type: float, notnull: true }
+  relations:
+    Restaurant: { onDelete: CASCADE, local: restaurant_id, foreign: id, foreignAlias: Restaurants }
+    Category: { onDelete: CASCADE, local: category_id, foreign: id, foreignAlias: Categories }
+    Detail: { onDelete: CASCADE, local: detail_id, foreign: id, foreignAlias: Details }
+
+Cart:
+  actAs: { Timestampable: ~ }
+  columns:
+    client_id: { type: integer, notnull: true }
+    restaurant_id: { type: integer, notnull: true }
+    product_id: { type: string(4000), notnull: true }
+    status: { type: boolean, notnull: true, default: 0 }
+    total: { type: float, notnull: true }
+  relations:
+    Restaurant: { onDelete: CASCADE, local: restaurant_id, foreign: id, foreignAlias: Restaurants2 }
+    Entity: { onDelete: CASCADE, local: client_id, foreign: id, foreignAlias: Entities2 }

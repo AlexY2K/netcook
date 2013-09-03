@@ -1,0 +1,23 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           product
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          product
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        display: [restaurant, category, detail, name, description, price]
+      filter:
+        display: [restaurant_id, category_id, detail_id, name, description, price]
+      form:    ~
+      edit:    ~
+      new:     ~

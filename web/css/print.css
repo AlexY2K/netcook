@@ -1,0 +1,14 @@
+.header,
+.footer {
+  display: none;
+}
+
+.member {
+  background-color: #d2af5f;
+  margin-top: 10px;
+  height: 100px;
+  color: #000;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 320px;
+}

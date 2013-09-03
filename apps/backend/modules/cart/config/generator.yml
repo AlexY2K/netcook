@@ -1,0 +1,25 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Cart
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          cart
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        actions: {}
+        batch_actions: {}
+        display: [restaurant, product, status, total]
+      filter:
+        display: [client_id, restaurant_id, status]
+      form:    ~
+      edit:    ~
+      new:     ~

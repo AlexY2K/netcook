@@ -1,0 +1,62 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+signup:
+  url: /signup
+  param: { module: homepage, action: signup }
+
+get_city:
+  url: /getCity/
+  param: { module: homepage, action: autocomplete }
+
+get_postalcode:
+  url: /getPostalcode/
+  param: { module: homepage, action: getCityZipcode }
+
+homepage:
+  url:   /
+  param: { module: homepage, action: index }
+
+add_to_cart:
+  url: /addtocart/
+  param: { module: menu, action: addToCart }
+
+checkout:
+  url: /checkout/
+  param: { module: menu, action: checkout }
+
+mentions:
+  url: /mentions-legales/
+  param: { module: homepage, action: mentions }
+
+cgv:
+  url: /cgv/
+  param: { module: homepage, action: cgv }
+
+restaurant:
+  url: /:slug/
+  class: sfDoctrineRoute
+  options: { model: Restaurant, type: object, method: getOneBySlug }
+  param: { module: menu, action: index }
+
+restaurant_list:
+  url: /restaurants/:postal_code/
+  param: { module: homepage, action: listing }
+
+contact:
+  url: /contact/submit/
+  param: { module: homepage, action: submit }
+
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

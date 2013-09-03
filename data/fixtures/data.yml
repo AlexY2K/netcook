@@ -1,0 +1,897 @@
+Restaurant:
+  Restaurant_1:
+    Entity: Entity_1
+    image: bb435c80db165fd71d9abdf0dddf2b2f5d93ad38.jpg
+    name: 'Restaurant Sannine'
+    address: '32 rue du foubourg montmarte'
+    city: Paris
+    postal_code: '75009'
+    type: Libanais
+    phone: '01 48 24 01 32'
+    description: 'Restaurant Libanais'
+    open_time: '11:00:00'
+    close_time: '23:00:00'
+    status: true
+    created_at: '2013-06-13 19:26:02'
+    updated_at: '2013-06-13 19:26:02'
+    slug: restaurant-sannine-paris
+  Restaurant_2:
+    Entity: Entity_1
+    image: 1c856ef68394de36a7145f8da6d7ed4a18d39db4.jpg
+    name: 'Volcano lounge'
+    address: '15 rue paul vaillant couturier'
+    city: Argenteuil
+    postal_code: '95100'
+    type: lounge
+    phone: '01 39 47 17 17'
+    description: "Volcano Lounge, le tout nouveau resto-lounge italien à Argenteuil, vous accueille pour déguster ses spécialités culinaires diverses et variées !!\r\nVenez partager un moment de détente lors des soirées animées et à thème (latino, jazz, Dj...)"
+    open_time: '10:00:00'
+    close_time: '23:00:00'
+    status: true
+    created_at: '2013-06-12 16:04:17'
+    updated_at: '2013-06-12 16:04:17'
+    slug: volcano-lounge-argenteuil
+  Restaurant_3:
+    Entity: Entity_1
+    image: 2ba48806ae279385eadd562fa909bd5c910d1213.jpg
+    name: 'les jumeaux '
+    address: '98 rue paul vaillant couturier'
+    city: Argenteuil
+    postal_code: '95100'
+    type: Kebab
+    phone: '01 39 61 11 25'
+    description: 'kebab - restauration sandwich - '
+    open_time: '11:00:00'
+    close_time: '21:00:00'
+    status: true
+    created_at: '2013-06-13 12:49:41'
+    updated_at: '2013-06-13 12:49:41'
+    slug: les-jumeaux-argenteuil
+  Restaurant_4:
+    Entity: Entity_1
+    image: 493e8d878a66aa6905ef6f4eafae003bb1dc3253.jpg
+    name: 'Lourenco manuel'
+    address: '2 boulevard jeanne d''arc'
+    city: Argenteuil
+    postal_code: '95100'
+    type: Portugais
+    phone: '01 39 61 91 56'
+    description: 'Restauration tradionnelle portugaise.'
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-06-13 12:52:01'
+    updated_at: '2013-06-13 12:52:01'
+    slug: lourenco-manuel-argenteuil
+  Restaurant_5:
+    Entity: Entity_1
+    image: 3fa8ccb0d9e5952e4320e9e96c35c97baa1eda3c.jpg
+    name: 'Restaurant GLASSY'
+    address: '52 avenue de la division leclerc'
+    city: 'le bourget'
+    postal_code: '93350'
+    type: Indien
+    phone: '01 48 38 00 04'
+    description: 'Restauration indienne'
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-06-13 12:55:49'
+    updated_at: '2013-06-13 12:55:49'
+    slug: restaurant-glassy-le-bourget
+  Restaurant_6:
+    Entity: Entity_1
+    image: 1277713089d5e583120ffad817798bf52fc3ab35.jpg
+    name: 'Fung Shun'
+    address: '34 avenue de choisy '
+    city: Paris
+    postal_code: '75013'
+    type: Chinois
+    phone: '01 53 60 13 56'
+    description: 'Restauration chinoise'
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-06-13 12:57:51'
+    updated_at: '2013-06-13 12:57:51'
+    slug: fung-shun-paris
+  Restaurant_7:
+    Entity: Entity_1
+    image: 947d4abc10bd229635db1c0a3c18bf847c2ec1a6.jpg
+    name: 'le caroubier '
+    address: '82 boulevard lefevre'
+    city: Paris
+    postal_code: '75017'
+    type: Marocain
+    phone: '01 40 43 16 12'
+    description: 'Gastronomie Oriental'
+    open_time: '11:00:00'
+    close_time: '23:00:00'
+    status: true
+    created_at: '2013-06-13 13:01:10'
+    updated_at: '2013-06-13 13:01:10'
+    slug: le-caroubier-paris
+  Restaurant_8:
+    Entity: Entity_1
+    image: bab1ef3150e66a350dbd9a7d4c97461f5c44f3f7.jpg
+    name: 'Pizzeria des coteaux'
+    address: '70 avenue marechal joffre'
+    city: Argenteuil
+    postal_code: '95100'
+    type: 'Pizzeria '
+    phone: '01 30 25 00 70'
+    description: 'Pizzeria '
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-06-13 13:04:46'
+    updated_at: '2013-06-13 13:04:46'
+    slug: pizzeria-des-coteaux-argenteuil
+  Restaurant_9:
+    Entity: Entity_1
+    image: 90af40fbde40854076bac12a3707a85b1d85f748.jpg
+    name: 'allo pat''a pizza'
+    address: '33 rue etienne chevalier '
+    city: Argenteuil
+    postal_code: '95100'
+    type: Pizzeria
+    phone: '01 34 10 73 76'
+    description: Pizzeria
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-06-13 13:09:27'
+    updated_at: '2013-06-13 13:09:27'
+    slug: allo-pat-a-pizza-argenteuil
+  Restaurant_10:
+    Entity: Entity_1
+    image: cda196f53d3dd7fd3e126aae088a291d88ac8a27.jpg
+    name: 'Tokyo restaurant'
+    address: '9 rue antonin georges belin'
+    city: Argenteuil
+    postal_code: '95100'
+    type: Japonais
+    phone: '01 39 61 93 77'
+    description: 'Cuisine japonaise - sur place ou à emporter.'
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-06-13 13:11:55'
+    updated_at: '2013-06-13 13:11:55'
+    slug: tokyo-restaurant-argenteuil
+  Restaurant_11:
+    Entity: Entity_1
+    image: b3bd585ffb7bbef208f32ff21dc371d7a7d0a0b1.jpg
+    name: 'Wazabi '
+    address: '185 avenue jean jaures'
+    city: Argenteuil
+    postal_code: '95100'
+    type: Japonais
+    phone: '01 39 80 82 53'
+    description: Japonais
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-06-13 13:20:55'
+    updated_at: '2013-06-13 13:20:55'
+    slug: wazabi-argenteuil
+  Restaurant_23:
+    Entity: Entity_1
+    image: f38a7715b0a353464571fed8e4eb2c03e03ae91d.jpg
+    name: 'Restaurant KIM YANG'
+    address: '55 boulevard générale lelerc'
+    city: 'Les Lilas'
+    postal_code: '93260'
+    type: Chinois
+    phone: '01 48 87 87 02'
+    description: 'Cuisine tradionnelle Chinoise'
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 12:27:01'
+    updated_at: '2013-07-01 12:27:01'
+    slug: restaurant-kim-yang-les-lilas
+  Restaurant_13:
+    Entity: Entity_1
+    image: b540871cb7dec92e8000111d1fb8aed81c13cdf7.jpg
+    name: 'Or Grill'
+    address: '43 rue jean pierre timbaud'
+    city: Sartrouville
+    postal_code: '78500'
+    type: Chinois
+    phone: '01 39 62 88 88'
+    description: Chinois
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-06-13 13:25:23'
+    updated_at: '2013-06-13 13:25:23'
+    slug: or-grill-sartrouville
+  Restaurant_22:
+    Entity: Entity_1
+    image: 7a7f50a1e1259d1fc1b0463013d1f3b9d7db8a1b.jpg
+    name: 'Le Royal d''argenteuil'
+    address: '29 Rue Antonin George Belin'
+    city: Argenteuil
+    postal_code: '95100'
+    type: Chinois
+    phone: '01 30 76 82 95'
+    description: 'Gastronomie chinoise'
+    open_time: '12:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 12:20:47'
+    updated_at: '2013-07-01 12:20:47'
+    slug: le-royal-d-argenteuil-argenteuil
+  Restaurant_15:
+    Entity: Entity_1
+    image: 3b114ae71d51ce1f1f985e4e5f0acae3203d12e5.jpg
+    name: 'Accro pizza'
+    address: '9 rue de lille'
+    city: 'Epinay sur seine'
+    postal_code: '93800'
+    type: Pizzeria
+    phone: '01 48 41 12 17'
+    description: Pizzeria
+    open_time: '10:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-06-13 13:29:06'
+    updated_at: '2013-06-13 13:29:06'
+    slug: accro-pizza-epinay-sur-seine
+  Restaurant_16:
+    Entity: Entity_1
+    image: 1d3211cf30230133d5eb5ab71ec852b658417981.jpg
+    name: Adonis
+    address: '17 avenue de la république'
+    city: 'Epinay sur seine'
+    postal_code: '93800'
+    type: Oriental
+    phone: '01 48 23 90 56'
+    description: 'Cuisine oriental'
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-06-13 13:31:20'
+    updated_at: '2013-06-13 13:31:20'
+    slug: adonis-epinay-sur-seine
+  Restaurant_17:
+    Entity: Entity_1
+    image: bae7c88324ee694fc01b1ac03c2a10d18d909b02.jpg
+    name: 'le petit indien'
+    address: '5 rue pouchet '
+    city: Paris
+    postal_code: '75017'
+    type: Indien
+    phone: '01 42 63 00 20'
+    description: Indien
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-06-13 13:32:55'
+    updated_at: '2013-06-13 13:32:55'
+    slug: le-petit-indien-paris
+  Restaurant_18:
+    Entity: Entity_1
+    image: d1da781e720a4702e85f53b96967889efae8d857.jpg
+    name: 'Restaurant aux 3 marches'
+    address: '11 rue jouffroy d''abbans '
+    city: Paris
+    postal_code: '75017'
+    type: Marocain
+    phone: '01 46 22 55 52'
+    description: 'Restauration marocaine'
+    open_time: '10:00:00'
+    close_time: '23:00:00'
+    status: true
+    created_at: '2013-06-13 19:43:35'
+    updated_at: '2013-06-13 19:43:35'
+    slug: restaurant-aux-3-marches-paris
+  Restaurant_19:
+    Entity: Entity_1
+    image: 4c0d6184c45be0404e4493e2e25f3cd2564e6b50.jpg
+    name: 'La Grange '
+    address: '1 pl Maurice Chavany'
+    city: Colombes
+    postal_code: '92700'
+    type: Français
+    phone: '01 57 67 88 08'
+    description: 'Cuisine tradionnelle Française'
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-06-20 17:59:43'
+    updated_at: '2013-06-20 17:59:43'
+    slug: la-grange-colombes
+  Restaurant_20:
+    Entity: Entity_1
+    image: c1ddafdb5996791273c367adabeb97c2401e55f8.jpg
+    name: 'Restaurant HUA'
+    address: '59 rue bourmand'
+    city: Colombes
+    postal_code: '92700'
+    type: Chinois
+    phone: '01 47 81 09 62'
+    description: 'Restauration tradionnelle chinoise et asiatique'
+    open_time: '12:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 12:11:53'
+    updated_at: '2013-07-01 12:11:53'
+    slug: restaurant-hua-colombes
+  Restaurant_21:
+    Entity: Entity_1
+    image: af55cc3c1d42b9350437944fee9558e60bee83b3.png
+    name: 'La Palmeraie'
+    address: '62 evenue galieni'
+    city: 'Epinay sur seine'
+    postal_code: '93800'
+    type: Marocain
+    phone: '01 48 41 29 24'
+    description: 'Gastronomie marocaine '
+    open_time: '11:00:00'
+    close_time: '22:30:00'
+    status: true
+    created_at: '2013-07-01 12:14:21'
+    updated_at: '2013-07-01 12:14:21'
+    slug: la-palmeraie-epinay-sur-seine-1
+  Restaurant_24:
+    Entity: Entity_1
+    image: f8800ca58f5f452d9bf27cbc0b360259006e50fd.jpg
+    name: 'Restaurant KUNGA'
+    address: '15 boulevard du temple'
+    city: Paris
+    postal_code: '75003'
+    type: Tibétaine
+    phone: '01 48 87 87 02'
+    description: "Situé dans le 3e arrondissement parisien, le restaurant Yak Kunga vous invite à un voyage gastronomique et spirituel sur le \"toit du monde\". Entrez dans une ambiance zen et appréciez sa décoration rappelant le Tibet ancien, avec ses photos, son drapeau de prière et bien évidemment la statue de Bouddha .\r\n\r\nA ses fourneaux, le Chef s’affaire et vous prépare les spécialités culinaires du pays qui ont bercé son enfance : Tsam thang, Sha momok, Shamdré… et bien d’autres plats aux saveurs mystérieuses et senteurs épicées. De quoi ravir les plus fins gourmets…\r\n\r\nUne excellente adresse pour découvrir une cuisine aux mille parfums, gagnant à être connue… A expérimenter au plus vite !"
+    open_time: '11:00:00'
+    close_time: '22:22:00'
+    status: true
+    created_at: '2013-07-01 12:32:22'
+    updated_at: '2013-07-01 12:32:22'
+    slug: restaurant-kunga-paris
+  Restaurant_25:
+    Entity: Entity_1
+    image: a4a91305c498f0dd05beb22b3a5801adcf487cff.jpg
+    name: Vinalia
+    address: '131 rue Méderic'
+    city: 'Noisy le grand'
+    postal_code: '93160'
+    type: 'Bar à vin'
+    phone: '01 43 03 02 66'
+    description: "Franck Tribouillard et son épouse Meglena ont donné un nouveau souffle à ce petit restaurant de 60 couverts, niché dans le quartier des Richardets.\r\n\r\nIdéal pour des repas d’affaires, dîners en tête à tête ou entre amis…pour tous les amateurs d’une cuisine sensible et généreuse autour d’un bon verre de vin.\r\n\r\nGrâce au chef et son équipe tradition et modernité sont en parfaite osmose.\r\n\r\nL’émotion gustative, le petit grain de folie, l’envie de partager et faire plaisir sont devenus la signature de Vinalia.\r\n\r\nPassionné par l’oenologie, Franck a élaboré une carte des vins  diversifiée irrésistible et surprenante.\r\nConçue  pour  les amateurs et  aussi pour les connaisseurs  les plus exigeants, elle est constituée  de plus de 100 ref couvrantes toutes les régions viticoles.\r\n\r\nDans la cave du restaurant des « petit vins » cohabitent sans complexes à coté des Grands crus. Faites confiance au patron qui sera vous écouter, conseiller  proposer du vin « sur mesure » celui qui vous correspond au mieux. \r\nVous pourrez le déguster au verre, en pichet de 50cl ou en bouteille.\r\n\r\nUne petite terrasse fermée, pleine de charme couverte et chauffée en hiver et ensoleillé en été, accueille en toute intimité une quinzaine de couverts.\r\n"
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 12:36:44'
+    updated_at: '2013-07-01 12:36:44'
+    slug: vinalia-noisy-le-grand
+  Restaurant_26:
+    Entity: Entity_1
+    image: ec8bfb137eb6b626067681ef140f1cf5649523b3.jpg
+    name: 'Restaurant Hao yun'
+    address: '71 rue génerale de gaulle'
+    city: 'Enghien les bains'
+    postal_code: '95880'
+    type: Chinois
+    phone: '01 39 64 92 20'
+    description: 'Cuisine chinoise, restauration sur place ou à emporter'
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 12:40:03'
+    updated_at: '2013-07-01 12:40:03'
+    slug: restaurant-hao-yun-enghien-les-bains
+  Restaurant_27:
+    Entity: Entity_1
+    image: 72424206c1321aefe0d0e87a365aac5c7ff38c07.jpg
+    name: 'Spicy world'
+    address: '109 rue Henri Barbusse'
+    city: Clichy
+    postal_code: '92110'
+    type: Indienne
+    phone: '06 61 30 49 43'
+    description: "http://spicyworld.fr/\r\n\r\nCuisine traidionnelle indienne - Restauration sur place ou à emporter."
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 12:44:19'
+    updated_at: '2013-07-01 12:44:19'
+    slug: spicy-world-clichy
+  Restaurant_28:
+    Entity: Entity_1
+    image: bc7584cdbe54643e19dc1556fb7ad213032840ca.jpg
+    name: 'Au Bon Accueil'
+    address: '49 rue de Neuilly '
+    city: Clichy
+    postal_code: '92110'
+    type: Brasserie
+    phone: '01 42 70 77 30'
+    description: 'Brasserie traditionnelle Française'
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 12:54:05'
+    updated_at: '2013-07-01 12:54:05'
+    slug: au-bon-accueil-clichy
+  Restaurant_29:
+    Entity: Entity_1
+    image: 1b7386fa1e7df1c169de18964eadad7815fd885a.jpg
+    name: Lassani
+    address: '121 Boulevard saint denis'
+    city: Courbevoie
+    postal_code: '92400'
+    type: Indien
+    phone: '06 75 06 94 78'
+    description: "http://www.lassani.fr/\r\n\r\nInde, royaume des épices. Depuis l'Antiquité, les occidentaux affrètent des caravanes, des convois, des bateaux vers l'Inde pour y acheter les précieuses épices.\r\nPalette intense de couleurs vives, d'odeurs capiteuses et de goûts raffinés, les marchés indiens sont bien plus qu'une simple promenade. Les sens en éveil, on ne se lasse pas de s'enivrer.\r\nC'est à la découverte d'une cuisine élaborée pour le plaisir des sens que le Lassani, restaurant de spécialités pakistanaises et indiennes, vous convie."
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 12:56:30'
+    updated_at: '2013-07-01 12:56:30'
+    slug: lassani-courbevoie
+  Restaurant_30:
+    Entity: Entity_1
+    image: d1c874236f9ca51201ed7b36ca3985fe72541b5a.jpg
+    name: 'Restaurant HE PING'
+    address: '362 rue général Lelerc'
+    city: Franconville
+    postal_code: '95130'
+    type: Chinois
+    phone: '06 18 39 06 17'
+    description: 'Restauration traditionnelle chinoise / buffet à vonlonté'
+    open_time: '12:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 13:02:30'
+    updated_at: '2013-07-01 13:02:30'
+    slug: restaurant-he-ping-franconville
+  Restaurant_31:
+    Entity: Entity_1
+    image: f000240ad74157bcfae53c414c87e904c64ae108.jpg
+    name: 'le phare du forum'
+    address: '14 Place du forum'
+    city: 'Saint gratien'
+    postal_code: '95210'
+    type: 'Fruits de mer'
+    phone: '01 34 28 23 07'
+    description: 'Fruits de mer et grillade'
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 13:05:54'
+    updated_at: '2013-07-01 13:05:54'
+    slug: le-phare-du-forum-saint-gratien
+  Restaurant_32:
+    Entity: Entity_1
+    image: e3d471ea8886104915ea2bcaa11d83bb6f3ca4ec.jpg
+    name: 'Les Cygnes'
+    address: '45 rue Berthe Albrech'
+    city: 'Saint gratien'
+    postal_code: '95210'
+    type: Pizzeria
+    phone: '01 34 12 71 72'
+    description: 'Pizzeria sur place ou à emporter- terrasse'
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 13:09:59'
+    updated_at: '2013-07-01 13:09:59'
+    slug: les-cygnes-saint-gratien
+  Restaurant_33:
+    Entity: Entity_1
+    image: d457333daea7642d251558ab632d7d16ee37df1e.jpg
+    name: 'Restaurant Le BRAZZA'
+    address: '421 rue Antonin Georges Belin'
+    city: Argenteuil
+    postal_code: '95100'
+    type: Brasserie
+    phone: '09 71 53 11 93'
+    description: 'Restaurant traditionnelle français '
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 13:13:36'
+    updated_at: '2013-07-01 13:13:36'
+    slug: restaurant-le-brazza-argenteuil
+  Restaurant_34:
+    Entity: Entity_1
+    image: d874903f184cec16a394815d2c3ae8110162f061.jpg
+    name: 'Pizza Global'
+    address: '49 avenue de verdun'
+    city: Argenteuil
+    postal_code: '95100'
+    type: Pizzeria
+    phone: '01 30 76 47 48'
+    description: Pizzeria
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 13:43:42'
+    updated_at: '2013-07-01 13:43:42'
+    slug: pizza-global-argenteuil
+  Restaurant_35:
+    Entity: Entity_1
+    image: 52108cdaeead8dcdb4103e9a5ccd91d9367ad5f5.jpg
+    name: 'Le PACHA'
+    address: '9 boulevard Maréchal foch'
+    city: 'Noisy le grand'
+    postal_code: '93160'
+    type: oriental
+    phone: '01 49 32 49 48'
+    description: 'restaurant oriental'
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 13:48:31'
+    updated_at: '2013-07-01 13:48:31'
+    slug: le-pacha-noisy-le-grand
+  Restaurant_36:
+    Entity: Entity_1
+    image: 78cf3927f29001c2e2d62cda3d1d631a8bf870d8.jpg
+    name: 'Restaurant Bienvenue'
+    address: '150 boulevard National'
+    city: Nanterre
+    postal_code: '92000'
+    type: Chinois
+    phone: '01 47 25 57 51'
+    description: 'Restaurant chinois'
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 13:50:18'
+    updated_at: '2013-07-01 13:50:18'
+    slug: restaurant-bienvenue-nanterre
+  Restaurant_37:
+    Entity: Entity_1
+    image: 1fd3139b5d3df5d2d67163ca88c18fb66db5b8aa.jpg
+    name: 'restaurant le bougainvilliers'
+    address: '105 avenue Georges clémenceau'
+    city: Nanterre
+    postal_code: '92000'
+    type: 'Française traditionnelle '
+    phone: '01 47 21 80 34'
+    description: 'traditionnelle française'
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 13:52:41'
+    updated_at: '2013-07-01 13:52:41'
+    slug: restaurant-le-bougainvilliers-nanterre
+  Restaurant_38:
+    Entity: Entity_1
+    image: 09202e596f0c2945fa8f420b78de714c36bde2cc.jpg
+    name: 'Sushi Nanterre'
+    address: '135 avenue Georges clemenceau'
+    city: Nanterre
+    postal_code: '92000'
+    type: japonais
+    phone: '01 47 21 09 02'
+    description: 'japonais - sur place ou à emporter'
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 13:56:09'
+    updated_at: '2013-07-01 13:56:09'
+    slug: sushi-nanterre-nanterre
+  Restaurant_39:
+    Entity: Entity_1
+    image: 1a401fbb18b26039004741615ac610ca221110de.jpg
+    name: 'XIN YIN HE restaurant'
+    address: '43 rue henri barbusse'
+    city: Nanterre
+    postal_code: '92000'
+    type: Chinois
+    phone: '06 03 05 71 73'
+    description: 'Cuisine chinoise'
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 14:06:03'
+    updated_at: '2013-07-01 14:06:03'
+    slug: xin-yin-he-restaurant-nanterre
+  Restaurant_40:
+    Entity: Entity_1
+    image: 33262d9fc843320c6206376a7d7a2814adbaa201.jpg
+    name: 'l''auberge du 14 juillet'
+    address: '9 boulevard de la république'
+    city: 'La Garenne-colombes'
+    postal_code: '92250'
+    type: Rotisserie
+    phone: '01 42 42 21 79'
+    description: "française-Rotisserie- L´Auberge du 14 Juillet vous reçoit dans le centre-ville de La Garenne-Colombes, à proximité de la place de l´Europe. La cadre est rustique et charmant avec ses poutres apparentes et sa belle et imposante cheminée en pierre qui trône au fond de la pièce.\r\n\r\nCôté menu, le Chef mitonne une cuisine française traditionnelle riche et goûteuse. La spécialité de la maison, ce sont les grillades au feu de bois. Mais, la carte affiche également des produits de la mer : saumon, gambas, coquilles Saint-Jacques…\r\n\r\nPour vos événements festifs, l´établissement permet la privatisation du lieu. Une adresse à découvrir sans plus attendre tant pour le cadre que pour l´assiette !"
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 14:11:35'
+    updated_at: '2013-07-01 14:11:35'
+    slug: l-auberge-du-14-juillet-la-garenne-colombes
+  Restaurant_41:
+    Entity: Entity_1
+    image: 94d320fa2e0892072d3b4eaa77e104cde12ae900.jpg
+    name: 'Marco polo'
+    address: '194 rue pierre brosolette'
+    city: 'Noisy le grand'
+    postal_code: '93160'
+    type: italien
+    phone: '01 49 32 45 83'
+    description: "Le restaurant italien Marco Polo, situé au cœur de Noisy-le-Grand et à proximité du quartier d´affaires, vous reçoit dans un cadre charmant, style florentin.\r\n\r\nVous vous régalerez avec la cuisine italienne fine et gourmande du Chef qui permettra à vos papilles de s´évader du nord au sud du pays. Parmi les suggestions : antipasti all'italiana, calamars grillés ou encore les raviolis aux cèpes et à la crème de truffes.\r\n\r\nSi le soleil accepte de monter le bout de ses rayons, vous pourrez vous restaurer et vous détendre sur la belle terrasse au son de l'animation musicale tous les jeudis soirs. Et, pour vos événements festifs, l´établissement permet également la privatisation du lieu."
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 14:14:17'
+    updated_at: '2013-07-01 14:14:17'
+    slug: marco-polo-noisy-le-grand
+  Restaurant_42:
+    Entity: Entity_1
+    image: 99b1eb5f7f165effef807ad5b1e6187ae33aa8c9.jpg
+    name: 'l''assiette du Gournaysien'
+    address: '1 avenue maréchal joffre'
+    city: Gournay-sur-marne
+    postal_code: '93460'
+    type: 'Française traditionnelle '
+    phone: '01 43 05 12 35'
+    description: "Notre restaurant, L'Assiette du Gournaysien, vous accueille sur les bords de Marne, à l'entrée de Gournay-sur-Marne, à l'angle de la promenade André Ballu.\r\n\r\nVenez savourer la cuisine traditionnelle mais aussi contemporaine et créative de notre chef Frédéric Haelling et prenez le temps de vous évader le temps d'un repas : nous serons heureux de vous faire apprécier notre cuisine dans un cadre calme et agréable. \r\nUn repas d'affaire ? Un banquet ? Un Mariage ? Le chef vous concoctera un menu à votre convenance."
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 14:16:56'
+    updated_at: '2013-07-01 14:16:56'
+    slug: l-assiette-du-gournaysien-gournay-sur-marne
+  Restaurant_43:
+    Entity: Entity_1
+    image: ca31bf5474d1099f170b27edce1a23580ae88943.jpg
+    name: 'Le bistrot de Paris'
+    address: '3 place du génerale lelerc'
+    city: Colombes
+    postal_code: '92700'
+    type: Brasserie
+    phone: '01 46 49 93 60'
+    description: "Notre restaurant vous accueille dans un cadre raffiné, et vous propose sa cuisine traditionnelle et gastronomique, accompagnée des plus grands vins de table.\r\n\r\nDes soirées thématiques sont organisées tous les mois, allant de la dégustation aux soirées concerts !\r\n \r\nL’ambiance subtile et feutrée ajoutée à la haute cuisine ont non seulement conquis le guide Champerard, mais aussi attiré le tout-Paris : Laurent Gerra, Jean-Claude Brialy, Charles Aznavour, Michel Galabru, Claudia Cardinal, Jean-Pierre Mocky, Brigitte Fossey, Jean Pia, Salvatore Adamo…\r\n \r\nNotre équipe  vous accueille du lundi au samedi, de 12h à 14h, et de 19h30 à 22h ainsi que le dimanche de 12h à 14h30.\r\n \r\nNous pouvons également mettre à votre disposition un salon privé uniquement sur réservation pour vos petits déjeuners, déjeuners et dîners d'entreprise, anniversaires, mariages etc...\r\n \r\nA très bientôt !"
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 14:23:46'
+    updated_at: '2013-07-01 14:23:46'
+    slug: le-bistrot-de-paris-colombes
+  Restaurant_44:
+    Entity: Entity_1
+    image: b39e5b40731dddd97e493c230587ff564938f978.jpg
+    name: 'Restaurant Spna'
+    address: '262 avenue jean jaures'
+    city: Argenteuil
+    postal_code: '95100'
+    type: Indien
+    phone: '01 39 80 74 74'
+    description: "Le restaurant SAPNA INDIEN à \r\nArgenteuil vous propose les\r\nspécialités de la cuisine indienne et\r\npakistanaise dans un cadre \r\nchaleureux où le patron saura vous\r\nrecevoir comme un invité de \r\nmarque.\r\n\r\n\r\nLe SAPNA INDIEN, vous propose \r\négalement la gastronomie indienne.\r\nVous y trouverez toutes les \r\nspécialités de tandoory et curry.\r\nLe tandoor est un four traditionnel \r\nindien en argile chauffé au feu de \r\nbois pour les grillades et les fameux \r\npains indiens «Nan» et\r\n«Nan romage».\r\n 	\r\nDepuis 1988, le Sapna enchante\r\nvos papilles par une cuisine\r\ntraditionnelle avec des produits\r\nde qualité et cuisson au four\r\nd'argile.\r\n\r\nDes menus vous seront proposés\r\nmidi et soir et bien sûr un large choix\r\nà la carte."
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 14:26:54'
+    updated_at: '2013-07-01 14:26:54'
+    slug: restaurant-spna-argenteuil
+  Restaurant_45:
+    Entity: Entity_1
+    image: e280960d6bd44ae9e01356076da57bbb1521315f.jpg
+    name: 'la perle du Maroc'
+    address: '11 rue mairie'
+    city: 'champs sur marne'
+    postal_code: '77420'
+    type: oriental
+    phone: '01 60 17 93 34'
+    description: Oriental
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 14:29:17'
+    updated_at: '2013-07-01 14:29:17'
+    slug: la-perle-du-maroc-champs-sur-marne
+  Restaurant_46:
+    Entity: Entity_1
+    image: 57d04ae16b71d640f33e122b2fb97e6bfcb426f9.jpg
+    name: 'China Town'
+    address: '9 avenue andre-marie ampere'
+    city: 'champs sur marne'
+    postal_code: '77420'
+    type: Chinois
+    phone: '01 64 73 26 42'
+    description: chinois
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 14:33:23'
+    updated_at: '2013-07-01 14:33:23'
+    slug: china-town-champs-sur-marne
+  Restaurant_47:
+    Entity: Entity_1
+    image: 3e1d82029de7d4c3e3c1347bb80f8bb0dbc1b60d.jpg
+    name: 'Restaurant Sidi Yahia'
+    address: '71 boulevard segrais'
+    city: Lognes
+    postal_code: '77185'
+    type: oriental
+    phone: '01 60 17 18 01'
+    description: Oriental
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 14:36:11'
+    updated_at: '2013-07-01 14:36:11'
+    slug: restaurant-sidi-yahia-lognes
+  Restaurant_48:
+    Entity: Entity_1
+    image: a25d87dcc9dae66177c0332ea8339a4f5fd9fe8a.jpg
+    name: 'le Canard ''Or'
+    address: '5 place fulgence bienvennue'
+    city: 'bussy saint georges'
+    postal_code: '77600'
+    type: Chinois
+    phone: '01 64 66 91 88'
+    description: 'Buffet à volonté - Chinois '
+    open_time: '11:00:00'
+    close_time: '22:00:00'
+    status: true
+    created_at: '2013-07-01 14:38:21'
+    updated_at: '2013-07-01 14:38:21'
+    slug: le-canard-or-bussy-saint-georges
+Entity:
+  Entity_1:
+    last_name: test
+    first_name: test
+    address: test
+    phone: '123123'
+    image: null
+    created_at: '2013-06-07 18:14:43'
+    updated_at: '2013-06-07 18:14:43'
+  Entity_2:
+    last_name: admin
+    first_name: admin
+    address: ''
+    phone: ''
+    image: ''
+    created_at: '2013-06-14 02:08:54'
+    updated_at: '2013-06-14 02:08:54'
+  Entity_3:
+    last_name: admin
+    first_name: admin
+    address: ''
+    phone: ''
+    image: ''
+    created_at: '2013-06-14 10:09:53'
+    updated_at: '2013-06-14 10:09:53'
+  Entity_4:
+    last_name: Admin2
+    first_name: Admin2
+    address: ''
+    phone: ''
+    image: ''
+    created_at: '2013-06-15 02:56:12'
+    updated_at: '2013-06-15 02:56:12'
+Deals:
+  Deals_12:
+    image: b69636e396be8f5849a2f0e78da0143dcb918b17.jpg
+    description: 'ADONIS restaurant : Offre permanente de 10% de remise sur la carte hors menu et hors boisson. Obligation minimum : (Entrée-plat) ou (Plat-dessert). Remise offerte sur simple présentation de la carte de membre du réseau NETCOOK. '
+    value: '10'
+    start: '2013-01-01'
+    end: '2013-12-31'
+    Restaurant: Restaurant_16
+    created_at: '2013-07-01 15:04:25'
+    updated_at: '2013-07-01 15:04:25'
+  Deals_13:
+    image: 9f383058089a1900e94aeeccba4ba4bb1e84c237.jpg
+    description: 'Vinalia restaurant Offre permanente de  1 % de remise sur la carte. Obligation minimum : Entrée ou plat ou dessert. Remise offerte sur simple présentation de la carte de membre du réseau NETCOOK.'
+    value: '1'
+    start: '2013-01-01'
+    end: '2013-12-31'
+    Restaurant: Restaurant_25
+    created_at: '2013-07-01 15:23:35'
+    updated_at: '2013-07-01 15:23:35'
+  Deals_14:
+    image: 84b55d24583f4bee001d93c2e7783ac3fb4c37a9.jpg
+    description: 'Vinalia Restaurant : Offre un verre de vin de votre choix pour une entrée ou plat ou apéritif consommé – Offre appliquée sur simple présentation de la carte de membre du réseau NETCOOK. Offre permanente'
+    value: '0'
+    start: '2013-01-01'
+    end: '2018-12-31'
+    Restaurant: Restaurant_25
+    created_at: '2013-07-01 15:26:02'
+    updated_at: '2013-07-01 15:26:02'
+  Deals_11:
+    image: fb878ad3abf8772c3291bc92990080771599332f.jpg
+    description: 'Le CAROUBIER restaurant : Cocktail Offert sur simple présentation de la carte de membre du réseau NETCOOK. Offre cumulable avec la remise. '
+    value: '0'
+    start: '2013-01-01'
+    end: '2013-12-31'
+    Restaurant: Restaurant_7
+    created_at: '2013-07-01 14:55:41'
+    updated_at: '2013-07-01 14:55:41'
+  Deals_6:
+    image: e9417eaa642ad07258cd24aaa2da7aa539028c88.jpg
+    description: "FUNG SHUN restaurant -1 Cocktail de fruits offert en journée valable pour 2 personnes sur simple présentation de la carte de membre du reseau Netcook\r\n"
+    value: '0'
+    start: '2013-01-01'
+    end: '2013-12-31'
+    Restaurant: Restaurant_6
+    created_at: '2013-07-01 11:47:13'
+    updated_at: '2013-07-01 11:48:13'
+  Deals_7:
+    image: aa87c8e1db2197d17ec1be08821108923d080668.jpg
+    description: "FUNG SUNG restaurant : 1 Cocktail de fruits/ alcool offert en soirée valable pour 2 personnes sur simple présentation de la carte de membre du reseau Netcook\r\n"
+    value: '0'
+    start: '2013-01-01'
+    end: '2013-12-31'
+    Restaurant: Restaurant_6
+    created_at: '2013-07-01 11:50:26'
+    updated_at: '2013-07-01 11:50:26'
+  Deals_8:
+    image: df1e22e8fdf766b7524f7cff44da4dc72f23172b.jpg
+    description: "FUNG SHUN restaurant : 10% remise sur la carte en restauration sur place  pour minimun 2 couverts / Remise permanente consentie auprès des adhérents sur simple présentation de la carte de membre du réseau NETCOOK.\r\n"
+    value: '10'
+    start: '2013-01-01'
+    end: '2013-12-31'
+    Restaurant: Restaurant_6
+    created_at: '2013-07-01 11:54:35'
+    updated_at: '2013-07-01 11:54:35'
+  Deals_10:
+    image: 22fc17b7e2808562ba8122bf308026f94079d28e.jpg
+    description: 'Le CAROUBIER restaurant : Offre permanente de 20% de remise sur la carte hors menu et hors boisson. Obligation minimum : (Entrée-plat) ou (Plat-dessert). Remise offerte sur simple présentation de la carte de membre du réseau NETCOOK. '
+    value: '20'
+    start: '2013-01-01'
+    end: '2018-12-31'
+    Restaurant: Restaurant_7
+    created_at: '2013-07-01 14:53:18'
+    updated_at: '2013-07-01 14:53:18'
+  Deals_15:
+    image: 48cf944a2d814373ff7e0e7b978735776b2004e8.jpg
+    description: 'SPICY WORLD restaurant : Offre permanente de 10% de remise sur la carte hors menu et hors boisson. Obligation minimum : (Entrée-plat) ou (Plat-dessert). Remise offerte sur simple présentation de la carte de membre du réseau NETCOOK. '
+    value: '10'
+    start: '2013-01-01'
+    end: '2013-12-31'
+    Restaurant: Restaurant_27
+    created_at: '2013-07-01 15:36:54'
+    updated_at: '2013-07-01 15:36:54'
+  Deals_16:
+    image: d7d05e55aeaee3d2253781ee94bf4254d1095283.jpg
+    description: 'SPICY WORLD restaurant : Cocktail (alcool ou sans) Offert sur simple présentation de la carte de membre du réseau NETCOOK. Offre cumulable avec la remise. '
+    value: '0'
+    start: '2013-01-01'
+    end: '2013-12-31'
+    Restaurant: Restaurant_27
+    created_at: '2013-07-01 15:41:45'
+    updated_at: '2013-07-01 15:41:45'
+  Deals_17:
+    image: f062bdc52ec3c6b396fd06043591e791a53e3c54.jpg
+    description: 'Au bon Accueil restaurant : Cocktail (alcool ou sans) ou café offert sur simple présentation de la carte de membre du réseau NETCOOK pour une entré ou plat consommé. '
+    value: '0'
+    start: '2013-01-01'
+    end: '2018-12-31'
+    Restaurant: Restaurant_28
+    created_at: '2013-07-01 15:49:56'
+    updated_at: '2013-07-01 15:49:56'
+  Deals_18:
+    image: a8700adc8946834cca600dae14e5c0d7382457de.jpg
+    description: 'Au bon Accueil restaurant : Offre permanente de  10 % de remise sur la carte. Obligation minimum : Entrée ou plat ou dessert. Remise offerte sur simple présentation de la carte de membre du réseau NETCOOK.'
+    value: '10'
+    start: '2013-01-01'
+    end: '2018-12-31'
+    Restaurant: Restaurant_28
+    created_at: '2013-07-01 15:51:48'
+    updated_at: '2013-07-01 15:51:48'
+  Deals_19:
+    image: b36a80e3abd840fed2b17d7b9c50096276c0dfa6.jpg
+    description: 'HE PING restaurant : Offre permanente de  10 % de remise sur le buffet à volonté. Offre uniquement valable le soir. Remise offerte sur simple présentation de la carte de membre du réseau NETCOOK.'
+    value: '10'
+    start: '2013-01-01'
+    end: '2018-12-31'
+    Restaurant: Restaurant_30
+    created_at: '2013-07-01 16:04:59'
+    updated_at: '2013-07-01 16:04:59'
+  Deals_20:
+    image: 109b46c0ed1f0a866839d20231160087fa904d41.jpg
+    description: 'HE PING restaurant : Cocktail sans alcool ou cocktail maison offert uniquement le soir sur simple présentation de la carte de membre du réseau NETCOOK pour une entré ou plat consommé. '
+    value: '0'
+    start: '2013-01-01'
+    end: '2018-12-31'
+    Restaurant: Restaurant_30
+    created_at: '2013-07-01 16:10:01'
+    updated_at: '2013-07-01 16:10:01'

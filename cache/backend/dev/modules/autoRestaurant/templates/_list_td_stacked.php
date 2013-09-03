@@ -1,0 +1,3 @@
+<td colspan="11">
+  <?php echo __('%%name%% - %%address%% - %%type%% - %%phone%% - %%description%% - %%open_time%% - %%close_time%% - %%status%% - %%city%% - %%postal_code%% - %%image%%', array('%%name%%' => $restaurant->getName(), '%%address%%' => $restaurant->getAddress(), '%%type%%' => $restaurant->getType(), '%%phone%%' => $restaurant->getPhone(), '%%description%%' => $restaurant->getDescription(), '%%open_time%%' => $restaurant->getOpenTime(), '%%close_time%%' => $restaurant->getCloseTime(), '%%status%%' => get_partial('restaurant/list_field_boolean', array('value' => $restaurant->getStatus())), '%%city%%' => $restaurant->getCity(), '%%postal_code%%' => $restaurant->getPostalCode(), '%%image%%' => $restaurant->getImage()), 'messages') ?>
+</td>

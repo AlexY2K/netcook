@@ -1,0 +1,66 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+get_city:
+  url: /getCity/
+  param: { module: home, action: autocomplete }
+  
+get_postalcode:
+  url: /getPostalcode/
+  param: { module: home, action: getCityZipcode }
+
+homepage:
+  url:   /
+  param: { module: home, action: index }
+
+mentions:
+  url:   /mentions-legales/
+  param: { module: home, action: mentions }
+
+signup:
+  url: /signup/
+  param: { module: home, action: signup }
+
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+profile:
+  url: /profile/
+  param: { module: home, action: profile }
+  
+restaurant_list:
+  url: /restaurants/:postal_code/
+  param: { module: home, action: listing }
+  
+member_card:
+  url: /memberCard/
+  param: { module: home, action: memberCard }
+  
+contact:
+  url: /contacter-nous/
+  param: { module: home, action: contact }
+  
+qui:
+  url: /qui-sommes-nous/
+  param: { module: home, action: qui }
+  
+concept:
+  url: /notre-concept/
+  param: { module: home, action: concept }
+
+restaurant:
+  url: /:slug/
+  class: sfDoctrineRoute
+  options: { model: Restaurant, type: object, method: getOneBySlug }
+  param: { module: home, action: detail }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

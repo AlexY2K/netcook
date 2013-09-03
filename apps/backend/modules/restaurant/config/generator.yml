@@ -1,0 +1,23 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           restaurant
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          restaurant
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        display: [name, address, type, phone, description, open_time, close_time, status, city, postal_code, image]
+      filter:
+        display: [name, address, type, phone, description, open_time, close_time, status, city, postal_code]
+      form:    ~
+      edit:    ~
+      new:     ~

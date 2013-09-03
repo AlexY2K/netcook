@@ -1,0 +1,22 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           deals
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          deals
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        display: [image, description, value, start, end, restaurant]
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~
